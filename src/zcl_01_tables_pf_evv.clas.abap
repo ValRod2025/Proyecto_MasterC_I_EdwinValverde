@@ -1,0 +1,23 @@
+CLASS zcl_01_tables_pf_evv DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+  INTERFACES: IF_OO_ADT_CLASSRUN.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_01_tables_pf_evv IMPLEMENTATION.
+  METHOD if_oo_adt_classrun~main.
+
+  out->write( 'hola mundo' ).
+
+  ENDMETHOD.
+
+ENDCLASS.
